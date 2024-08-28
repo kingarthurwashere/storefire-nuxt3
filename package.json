@@ -1,0 +1,41 @@
+{
+  "name": "storeflex",
+  "version": "3.0.2",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.0.8",
+    "@pinia/nuxt": "^0.5.1",
+    "@types/node": "^20.11.16",
+    "@vueuse/core": "^10.9.0",
+    "@vueuse/nuxt": "^10.9.0",
+    "autoprefixer": "^10.4.17",
+    "nodemon": "^3.1.0",
+    "nuxt": "^3.10.1",
+    "postcss": "^8.4.34",
+    "tailwindcss": "^3.4.1",
+    "vue3-carousel-nuxt": "^1.1.1"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "dotenv": "^16.4.5",
+    "flowbite-vue": "^0.1.2",
+    "joi": "^17.12.3",
+    "nodeom": "^0.0.1",
+    "pinia": "^2.1.7",
+    "skeleton-elements": "^4.0.1",
+    "skeleton-loader-vue": "^1.0.10",
+    "vue-loading-skeleton": "^1.1.9",
+    "vue-spinner": "^1.0.4",
+    "vue-toastification": "^2.0.0-rc.5"
+  }
+}
